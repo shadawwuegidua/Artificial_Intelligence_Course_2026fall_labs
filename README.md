@@ -12,6 +12,7 @@
     ├── seed_stability.py
     ├── svm_experiment.py
     ├── predict.py
+    ├── prediction.csv
     └── data-Project1/
         ├── train_data.csv
         └── test_data_unlabeled.csv
@@ -57,4 +58,4 @@ python ".\实验一\predict.py"
 
 此步骤可以独立运行，无需先生成实验结果目录。最终方案为 `TfidfVectorizer(max_features=20000)` 与 `LogisticRegression(C=30, max_iter=1000, random_state=42)`。脚本在全部有标签数据上重新拟合词表、IDF 与分类器，按测试集原始行序生成 `实验一/prediction.csv`，格式为无表头、无索引、单列标签。
 
-仓库仅保留复现所需的代码、输入数据和环境说明。预测文件、实验结果目录、日志、图表、检查脚本及报告草稿均保留在本地，不纳入版本控制。
+仓库保留复现所需的代码、输入数据、环境说明和最终预测文件 `实验一/prediction.csv`。实验结果目录、日志、图表、检查脚本及报告草稿均保留在本地，不纳入版本控制。
