@@ -1,0 +1,16 @@
+# Python caches and local development environments.
+__pycache__/
+*.py[cod]
+.venv/
+.vscode/
+
+# Lab 1: track only the final experiment scripts and required input data.
+# Drafts, generated predictions, metrics, plots, logs and checkpoints stay local.
+/实验一/*
+!/实验一/seed_stability.py
+!/实验一/svm_experiment.py
+!/实验一/predict.py
+!/实验一/data-Project1/
+/实验一/data-Project1/*
+!/实验一/data-Project1/train_data.csv
+!/实验一/data-Project1/test_data_unlabeled.csv
